@@ -22,6 +22,7 @@ function fuel_up()
     while fuel_level < target_fuel do
         fuel_once()
     end
+end
 
 function quarry()
     fuel_up()
