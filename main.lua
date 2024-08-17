@@ -9,7 +9,7 @@ dx,dy,dz = 0
 
 
 function fuel_once()
-    turtle.select(fuel_id)
+    turtle.select(fuel_slot)
     local passed, error = turtle.refuel()
     if passed then
         fuel_level = turtle.getFuelLevel()
