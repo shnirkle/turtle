@@ -1,4 +1,4 @@
-print("hello World")
+
 fuel_slot = 16
 torch_slot = 15
 fuel_id = 263
@@ -23,3 +23,7 @@ function fuel_up()
     end
 
 function quarry()
+    fuel_up()
+end
+
+quarry()
