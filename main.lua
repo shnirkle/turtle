@@ -6,7 +6,7 @@ target_fuel = 1000
 fuel_level = 0
 
 dx,dy,dz = 0
-quarry()
+
 
 function fuel_once()
     turtle.select(fuel_id)
@@ -27,4 +27,6 @@ end
 function quarry()
     fuel_up()
 end
+
+quarry()
 
