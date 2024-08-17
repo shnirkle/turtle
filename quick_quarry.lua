@@ -26,7 +26,7 @@ function deposit()
     for i = 1, 16, 1 do
         if turtle.drop() == false then
             turtle.up()
-            z = z + 1
+            z = z + 1 
         end
     end
     for i = 0, z, 1 do
