@@ -35,5 +35,25 @@ function deposit()
     turtle.right()
     turtle.right()
 end
-function quarry
-    
+function quarry()
+    for i = 0, 60, 1 do
+        for i = 0, 16, 1 do
+            for i = 0, 16, 1 do
+                turtle.dig()
+                turtle.forward
+            end
+            turtle.right()
+            turtle.dig
+            turtle.forward()
+            turtle.right()
+            for i = 0, 16, 1 do
+                turtle.dig()
+                turtle.forward
+            end
+            turtle.left()
+            turtle.dig()
+            turtle.forward()
+            turtle.left()
+        end
+    end
+end
