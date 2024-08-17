@@ -12,7 +12,7 @@ function fuel_once()
     local passed, error = turtle.refuel()
     if passed then
         fuel_level = turtle.getFuelLevel()
-        print("Refuel_Level: %d":format(fuel_level))
+        print(("Refuel_Level: %d"):format(fuel_level))
     else
         print("Kein Fuel in Slot 16")
     end
