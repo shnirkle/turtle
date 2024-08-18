@@ -5,7 +5,7 @@ pos = new(x,y,z)
 function dig_forward()
     if fuel < 0 then
         return false
-    if turtle.detect() then
+    elseif turtle.detect() then
         turtle.dig()
     end
     turtle.forward()
@@ -51,3 +51,4 @@ function main()
     fuel_up()
 end
 
+excavate_layer()
