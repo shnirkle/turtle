@@ -51,4 +51,4 @@ function main()
     fuel_up()
 end
 
-excavate_layer()
+excavate_layer(16)
