@@ -1,6 +1,6 @@
 fuel = 0
 trgt_fuel = 1000
-pos = new(x,y,z)
+pos = vector.new(x,y,z)
 
 function dig_forward()
     if fuel < 0 then
